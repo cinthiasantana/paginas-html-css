@@ -1,0 +1,28 @@
+
+
+#background1 {
+    background: url('../images/bg-stars.svg') no-repeat;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+}
+
+#background2::before {
+    content: "";
+    background: url('../images/pattern-hills.svg') no-repeat;
+    background-position: right -20%;
+    width: 100%;
+    height: 28vh;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+#header {
+    background-color: rgb(30, 31, 41);
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    z-index: -1;
+}
