@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+
+#home {
+    height: 100vh;
+    background-color: hsl(256, 26%, 20%);
+}
+#home .conteudo{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+}
+#home .conteudo h1{
+    font-size: 70px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    font-family: DM Serif Display;
+}
+#home .conteudo p{
+    font-size: 18px;
+}
+#home .conteudo button{
+    width: 35%;
+    font-size: 16px;
+    color: #fff;
+    text-transform: uppercase;
+    border: 1px solid #fff;
+    border-radius: 1px;
+    padding: 10px 0;
+    font-weight: 600;
+    letter-spacing: 4px;
+    margin: 26px 0;
+}
+#home .conteudo button:hover{
+    background-color: #fff;
+    color: hsl(256, 26%, 20%);
+}
+#home .img-conteudo img{
+    margin-top: 100px;
+}
+#sobre{
+    padding: 200px 0;
+}
+#sobre h1{
+    font-size: 58px;
+    font-family: DM Serif Display;
+    margin-bottom: 80px;
+}
+#sobre .item i{
+    font-size: 24px;
+    background-color: hsl(216, 30%, 68%);
+    color: #fafafa;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+#sobre .item h3{
+    font-weight: 700;
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+#sobre .item p{
+    font-size: 16px;
+    color: hsl(273, 4%, 51%);
+}
+
+/* CTA */
+#cta{
+    margin-bottom: 120px;
+}
+#cta .container{
+    background-color: hsl(256, 26%, 20%);
+    height: 30vh;
+    color: #fff;
+}
+#cta .descricao {
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    margin-top: 30px;
+}
+#cta .descricao h2{
+    font-size: 48px;
+    font-weight: 700;
+    font-family: DM Serif Display;
+}
+#cta .botao{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+#cta .botao button{
+    width: 35%;
+    font-size: 14px;
+    color: #fff;
+    text-transform: uppercase;
+    border: 1px solid #fff;
+    border-radius: 1px;
+    padding: 10px 0;
+    font-weight: 600;
+    letter-spacing: 4px;
+    margin: 26px 0;
+}
+#cta .botao button:hover{
+    background-color: #fff;
+    color: hsl(256, 26%, 20%);
+}
+
+/* RODAPE */
+#rodape{
+    background-color:hsl(0, 0%, 98%);
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#rodape .info{
+    border-bottom: 1px solid hsl(273, 4%, 51%);
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+#rodape .redes-sociais{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+#rodape .redes-sociais ul li{
+    list-style: none;
+    margin: 0 16px;
+}
+#rodape .redes-sociais ul li a{
+    color: hsl(273, 4%, 51%);
+    font-size: 24px;
+}
+#rodape .redes-sociais ul li a:hover{
+    color: hsl(256, 26%, 20%);
+}
+#rodape .navegacao{
+    margin-top: 30px;
+}
+#rodape .navegacao p{
+    color: hsl(273, 4%, 51%);
+    font-size: 16px;
+    font-weight: 600;
+}
+#rodape .navegacao ul li{
+   list-style: none;
+   margin-bottom: 8px;
+   margin-left: -30px;
+}
+#rodape .navegacao ul li a{
+    font-size: 14px;
+    text-decoration: none;
+    color: hsl(270, 9%, 17%);
+}
+#rodape .navegacao ul li a:hover{
+    border-bottom: 1px solid hsl(270, 9%, 17%);
+}
