@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+/* RECURSOS */
+#recursos {
+    height: 100vh;
+    margin-bottom: 60px;
+}
+
+#recursos .conteudo-principal {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#recursos .conteudo-principal h1 {
+    font-size: 38px;
+    color: hsl(243, 87%, 12%);
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+#recursos .conteudo-principal p {
+    font-size: 16px;
+    color: hsl(238, 22%, 44%);
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+#recursos .conteudo-principal form input {
+    width: 60%;
+    height: 40px;
+    border: 1px solid hsl(238, 22%, 44%);
+}
+
+#recursos .conteudo-principal form button {
+    width: 40%;
+    height: 40px;
+    background-color: hsl(224, 93%, 58%);
+    color: #fff;
+}
+
+#recursos .img-conteudo-principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#recursos .img-conteudo-principal img {
+    width: 100%;
+    background-position: center;
+}
+
+/* SERVICOS */
+#servicos {
+    padding: 80px 0;
+    background-color: hsla(240, 22%, 44%, 0.062);
+}
+
+#servicos .conteudo h2 {
+    font-size: 34px;
+    color: hsl(243, 87%, 12%);
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+#servicos .conteudo p {
+    font-size: 16px;
+    color: hsl(238, 22%, 44%);
+    font-weight: 600;
+}
+
+#servicos .conteudo a {
+    font-size: 18px;
+    color: hsl(170, 45%, 43%);
+    text-decoration: none;
+    padding-bottom: 4px;
+    border-bottom: 1px solid hsl(170, 45%, 43%);
+}
+
+#servicos .testimonial {
+    width: 66%;
+    margin: 60px 0;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 30px;
+}
+
+#servicos .testimonial i {
+    font-size: 26px;
+    color: hsl(243, 87%, 12%);
+    margin-bottom: 14px;
+}
+
+#servicos .testimonial h3 {
+    font-size: 16px;
+    color: hsl(238, 22%, 44%);
+    line-height: 20px;
+}
+#servicos .testimonial .info{
+    margin-top: 20px;
+}
+#servicos .testimonial .info img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+#servicos .testimonial .info .descricao{
+    margin-left: 10px;
+}
+#servicos .testimonial .info .descricao h4 {
+    font-size: 14px;
+    color: hsl(243, 87%, 12%);
+    font-weight: 700;
+}
+#servicos .testimonial .info .descricao p {
+    font-size: 12px;
+    color: hsl(238, 22%, 44%);
+    margin-top: -8px;
+}
+#servicos .img-conteudo {
+    margin-top: 30px;
+}
+#servicos .img-conteudo img {
+    width: 100%;
+}
+
+/* newsletter */
+
+#newsletter{
+    padding: 40px 0;
+    background-color: hsla(240, 22%, 44%, 0.863);
+    color: #fff;
+}
+#newsletter .conteudo h2{
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+#newsletter .conteudo p{
+    font-size: 16px;
+}
+#newsletter .form-newsletter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 80px;
+}
+#newsletter .form-newsletter input{
+    width: 60vh;
+    color: hsl(243, 87%, 12%);
+    display: flex;
+    justify-content: end;
+    padding: 6px 0;
+}
+#newsletter .form-newsletter .btn {
+    width: 45%;
+    font-size: 16px;
+    color: #fff;
+    padding: 6px 0;
+    margin: 20px 0;
+    background-color: hsl(224, 93%, 58%);
+}
+
+/* RODAPE */
+
+#rodape{
+    background-color: hsl(243, 87%, 12%);
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+#rodape .logo{
+    margin-bottom: 20px;
+}
+#rodape .contato p{
+    font-size: 14px;
+}
+#rodape .contato i{
+    font-size: 14px;
+    margin-right: 14px;
+}
+#rodape .navegacao ul{
+    margin-right: 80px;
+}
+#rodape .navegacao ul li{
+    list-style: none;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+#rodape .redes-sociais i{
+    border: 1px solid #fff;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+    cursor: pointer;
+    font-size: 16px;
+}
