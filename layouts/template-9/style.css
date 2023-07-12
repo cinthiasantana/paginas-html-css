@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    width: 85%;
+    height: 600px;
+    margin: 20px auto;
+}
+
+.box-main {
+    width: 300px;
+    height: 400px;
+    margin: 30px 0 0 20px;
+    float: left;
+    background-color: grey;
+}
+
+.description {
+    width: 800px;
+    margin: 30px 0 0 0;
+    float: right;
+
+}
+
+.description > p {
+    font-size: 20px;
+    font-family: sans-serif;
+    line-height: 32px;
+    margin-bottom: 30px;
+}
+
+.description > button {
+    width: 250px;
+    height: 45px;
+    background-color: cornflowerblue;
+    border-radius: 20px;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    border-style: none;
+
+}

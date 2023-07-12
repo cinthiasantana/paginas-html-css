@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.menu-example {
+    width: auto;
+    height: 90px;
+}
+
+.menu-nav-example {
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.user-example {
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+    background-color: grey;
+}
+
+.search-bar-example {
+    width: 800px;
+    height: 50px;
+    border-radius: 4px;
+    background-color: grey;
+    margin-left: 50px;
+}
+
+.login-example-1 {
+    width: 100px;
+    height: 30px;
+    border-radius: 4px;
+    background-color: grey;
+    margin-left: 40px;
+}
+
+.login-example-2 {
+    width: 130px;
+    height: 30px;
+    border-radius: 4px;
+    background-color: grey;
+    margin-left: 40px;
+}
+
+.content {
+    width: 90%;
+    height: 800px;
+    margin: 20px auto;
+    display: flex;
+}
+
+.image-1 {
+    width: 230px;
+    height: 550px;
+    margin-top: 20px;
+    background-color: grey;
+}
+
+.image-2 {
+    width: 230px;
+    height: 200px;
+    margin-top: 590px;
+    position: absolute;
+    background-color: grey;
+}
+
+.image-3 {
+    width: 230px;
+    height: 350px;
+    margin-top: 20px;
+    margin-left: 15px;
+    background-color: grey;
+}
+
+.image-4 {
+    width: 230px;
+    height: 400px;
+    margin: 390px 0 0 245px;
+    position: absolute;
+    background-color: grey;
+}
+
+.image-5 {
+    width: 230px;
+    height: 220px;
+    margin-top: 20px;
+    margin-left: 15px;
+    background-color: grey;
+}
+
+.image-6 {
+    width: 230px;
+    height: 200px;
+    margin: 260px 0 0 490px;
+    position: absolute;
+    background-color: grey;
+}
+
+.image-7 {
+    width: 230px;
+    height: 310px;
+    margin: 480px 0 0 490px;
+    position: absolute;
+    background-color: grey;
+}
+
+.image-8 {
+    width: 230px;
+    height: 380px;
+    margin: 20px 0 0 735px;
+    position: absolute;
+    background-color: grey;
+}
+
+.image-9 {
+    width: 230px;
+    height: 200px;
+    margin: 420px 0 0 735px;
+    position: absolute;
+    background-color: grey;
+}
+
+.image-10 {
+    width: 230px;
+    height: 150px;
+    margin: 640px 0 0 735px;
+    position: absolute;
+    background-color: grey;
+}
+.image-11 {
+    width: 230px;
+    height: 210px;
+    margin: 20px 0 0 980px;
+    position: absolute;
+    background-color: grey;
+}
+
+.image-12 {
+    width: 230px;
+    height: 310px;
+    margin: 250px 0 0 980px;
+    position: absolute;
+    background-color: grey;
+}
+
+.image-13 {
+    width: 230px;
+    height: 210px;
+    margin: 580px 0 0 980px;
+    position: absolute;
+    background-color: grey;
+}

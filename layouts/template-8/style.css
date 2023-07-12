@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 400px;
+    height: 630px;
+    margin: 20px 0 0 50px;
+    float: left;
+}
+
+.box-main {
+    width: 350px;
+    height: 450px;
+    margin: 0 0 0 25px;
+    background-color: grey;
+}
+
+.info-main > p {
+    width: 350px;
+    margin: 20px 0 0 25px;
+    font-size: 16px;
+    font-family: sans-serif;
+    line-height: 26px;
+}
+
+.side-box {
+    margin: 10px 0 0 15px;
+}
+
+.box {
+    width: 78px;
+    height: 90px;
+    float: left;
+    margin-left: 10px;
+    background-color: grey;
+}
+
+.content {
+    width: 800px;
+    height: 630px;
+    margin: 20px 70px 0 0;
+    float: right;
+}
+
+.title > h1 {
+    font-size: 26px;
+    font-family: sans-serif;
+}
+
+.title > h2 {
+    font-size: 24px;
+    font-family: sans-serif;
+    margin: 10px 0;
+}
+
+.description > p {
+    font-size: 18px;
+    font-family: sans-serif;
+    line-height: 30px;
+    margin: 30px 0;
+}
+
+.side-box-content {
+    width: 850px;
+    height: 250px;
+}
+
+.box-content {
+    width: 183px;
+    height: 250px;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background-color: grey;
+}
+
+.description-rodape > p {
+    font-size: 20px;
+    font-family: sans-serif;
+    line-height: 30px;
+    margin: 18px 0;
+    display: inline-block;
+}
