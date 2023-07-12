@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap');
+
+h1,h2,h3,p,a{
+    font-family: Kumbh Sans;
+}
+#background{
+    background-repeat: no-repeat;
+    background-color: hsl(185, 75%, 39%);
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+#perfil {
+    width: 280px;
+    display: flex;
+    margin: auto;
+    margin-top: 100px;
+}
+#perfil .card {
+   border-radius: 16px;
+}
+#perfil .card img{
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+#perfil .card-header {
+    background-color: #fff;
+}
+#perfil .card-header img{
+    border-radius: 50%;
+    border: 6px solid #fff;
+    margin-top: -65px;
+}
+#perfil .card-header .usuario{
+    font-size: 18px;
+    color: hsl(229, 23%, 23%);
+    font-weight: bold;
+    margin-top: 20px;
+}
+#perfil .card-header span{
+    font-size: 18px;
+    color: hsl(227, 10%, 46%);
+    margin: 0 10px;
+    font-weight: 600;
+}
+#perfil .card-header .cidade{
+    font-size: 16px;
+    color: hsl(227, 10%, 46%);
+    margin-bottom: 20px;
+}
+#perfil .infos-geral {
+    margin: 0 10px;
+    height: 90px;
+}
+#perfil .info {
+    width: 80px;
+    margin-top: 8px;
+}
+#perfil .info h3 {
+    font-size: 18px;
+    font-weight: bold;
+}
+#perfil .info p {
+    font-size: 12px;
+    color: hsl(227, 10%, 46%);
+}
+#rodape{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsla(0, 0%, 59%, 0.39);
+    position: absolute;
+    bottom: 0;
+    
+}
+.creditos p {
+    font-size: 16px;
+    color: #fff;
+}
+.creditos a {
+    font-size: 16px;
+    color: hsl(227, 10%, 46%);
+    text-decoration: none;
+}
+.creditos a:hover {
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+}

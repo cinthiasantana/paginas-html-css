@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300&display=swap');
+
+#header{
+    background-color: #fff;
+}
+#home{
+    width: 100%;
+    height: 100vh;
+}
+#home .conteudo-principal {
+    width: 480px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    font-family: Public Sans;
+}
+#home .conteudo-principal h1 {
+    font-size: 58px;
+    color: hsl(233, 26%, 24%);
+    margin: 20px 0;
+}
+#home .conteudo-principal p {
+    font-size: 18px;
+    color: hsl(233, 8%, 62%);
+}
+#home .conteudo-principal button {
+    width: 50%;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 50px;
+    padding: 10px 0;
+    margin: 20px 0;
+    background-image: linear-gradient(to right top, #31d35c, #00d192, #00cbbb, #00c2d4, #2bb7da);
+}
+#home .img-conteudo{
+    height: 100vh;
+    position: absolute;
+    right: 0;
+}
+#home .img-conteudo img{
+    width: 90%;
+    position: absolute;
+}
+
+#sobre{
+    background-color: hsl(220, 16%, 96%);
+    padding: 80px 0;
+    font-family: Public Sans;
+}
+#sobre .titulo{
+    margin-bottom: 30px;
+}
+#sobre .titulo h1{
+    font-size: 40px;
+    font-weight: 600;
+    color: hsl(233, 26%, 24%);
+    margin-bottom: 30px;
+}
+#sobre .titulo p{
+    font-size: 18px;
+    color: hsl(233, 8%, 62%);
+    font-weight: 400;
+}
+#sobre .item i{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-image: linear-gradient(to right top, #31d35c, #00d192, #00cbbb, #00c2d4, #2bb7da);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: lighter;
+}
+#sobre .item h3{
+    font-size: 26px;
+    color: hsl(233, 26%, 24%);
+    margin: 30px 0;
+}
+#sobre .item p{
+    font-size: 16px;
+    color: hsl(233, 8%, 62%);
+}
+#artigos{
+    padding: 80px 0;
+    font-family: Public Sans;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+}
+#artigos h1{
+    font-size: 40px;
+    font-weight: 600;
+    color: hsl(233, 26%, 24%);
+    margin-bottom: 60px;
+}
+#artigos .card {
+    width: 42vh;
+}
+#artigos .card img{
+    height: 30vh;
+    object-fit: cover;
+}
+#artigos .card-body h5 {
+    font-size: 12px;
+    color: hsl(233, 8%, 62%);
+}
+#artigos .card-title{
+    font-size: 18px;
+    color: hsl(233, 26%, 24%);
+    font-weight: 600;
+    cursor: pointer;
+}
+#artigos .card-title:hover{
+    color: hsl(136, 65%, 51%);
+}
+#artigos .card-text {
+    font-size: 14px;
+    color: hsl(233, 8%, 62%);
+}
+
+#rodape{
+    background-color: hsl(233, 26%, 24%);
+    height: 40vh;
+    display: flex;
+    align-items: center;
+}
+#rodape .conteudo .redes-sociais {
+    margin: 40px 0;
+}
+#rodape .conteudo .redes-sociais li {
+    list-style: none;
+}
+#rodape .conteudo .redes-sociais li a{
+    color: #fff;
+    font-size: 20px;
+    margin: 0 10px;
+}
+#rodape .conteudo .redes-sociais li a:hover{
+    color: hsl(136, 65%, 51%);
+}
+#rodape .nav-links ul li {
+    list-style: none;
+    margin-bottom: 20px;
+    margin-right: 80px;
+}
+#rodape .nav-links ul li a{
+    color: #fff;
+    font-size: 16px;
+    margin: 0 10px;
+    text-decoration: none;
+}
+#rodape .nav-links ul li a:hover{
+    color: hsl(136, 65%, 51%);
+}
+#rodape .cta{
+    display: flex;
+    align-items:flex-end;
+    flex-direction: column;
+}
+#rodape .cta .btn {
+    width: 50%;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 50px;
+    padding: 10px 0;
+    margin: 20px 0;
+    background-image: linear-gradient(to right top, #31d35c, #00d192, #00cbbb, #00c2d4, #2bb7da);
+}
+#rodape .cta p{
+    color: #fff;
+}

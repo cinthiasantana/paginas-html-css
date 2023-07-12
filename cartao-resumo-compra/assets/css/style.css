@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap');
+
+body{
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+}
+#home{
+background-color: hsl(225, 100%, 94%);
+   height: 100vh;
+}
+#home .card{
+    font-family: Red Hat Display;
+    width: 340px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#home .card img{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+#home .card .titulo {
+    padding: 30px 40px 10px 40px;
+}
+#home .card h1{
+    font-size: 26px;
+    color: hsl(223, 47%, 23%);
+    font-weight: bolder;
+}
+#home .card p{
+    font-size: 16px;
+    color: hsl(224, 23%, 55%);
+    line-height: 26px;
+    margin: 20px 0;
+}
+#home .card .plano{
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 12px;
+    width: 85%;
+    height: 90px;
+}
+#home .card .plano i{
+    font-size: 22px;
+    color: hsl(224, 23%, 55%);
+    background-color: hsl(225, 100%, 94%);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#home .card .plano .descricao-plano {
+    margin-left: 20px;
+  
+}
+#home .card .plano .descricao-plano h2{
+    font-size: 18px;
+    color: hsl(223, 47%, 23%);
+    font-weight: 700;
+}
+#home .card .plano .descricao-plano p{
+    font-size: 16px;
+    color: hsl(224, 23%, 55%);
+    margin-top: -6px;
+    font-weight: 600;
+    text-align: start;
+}
+#home .card .plano .card-link {
+    text-decoration: none;
+    text-align: end;
+    margin-left: 20px;
+    font-size: 16px;
+    color: hsl(245, 75%, 52%);
+    height: 40%;
+    font-weight: 600;
+    border-bottom: 1px solid hsl(245, 75%, 52%);
+}
+#home .card .botoes .btn-principal{
+    width: 100%;
+    margin: 10px 0;
+    background-color: hsl(245, 75%, 52%);
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 0;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#home .card .botoes .btn-secundario{
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: tra7;
+    color: hsl(224, 23%, 55%);
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 0;
+    border-radius: 10px;
+}
