@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(174, 116, 228);
+    color: white;
+}
+
+/* MENU */
+
+.conteudo {
+    display: table;
+    padding-left: 150px;
+    padding-top: 20px;
+  }
+  
+.logo {
+    display: table-cell;
+    float: left;
+    font-size: 60px;
+    cursor: pointer;
+  }
+  
+.menu {
+    display: table-cell;
+    float: left;
+    padding-left: 300px;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+    padding-top: 18px;
+}
+
+.menu ul{
+    list-style: none;
+    position: relative;
+    cursor: pointer;
+}
+
+.menu ul li {
+    float: left;
+    padding-left: 50px;
+}
+
+.search-box{
+    float: left;
+    margin: 10px 0px 0px 80px;
+    
+}
+
+input{
+    width: 140px;
+    height: 30px;
+    text-align: center;
+    border-radius: 2px;
+    border-style: none;
+}
+
+input::placeholder {
+    color: rgb(143, 29, 143);
+  }
+
+input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+} 
+
+.botao{
+    width: 40px;
+    height: 30px;
+    text-align: center;
+    border-radius: 2px;
+    border-style: none;
+    font-size: 14px;
+    color: rgb(143, 29, 143);
+    background-color: white;
+    margin-left: 5px;
+    
+}
+
+
+/* FIM MENU */
+
+
+.main{
+    width: 550px;
+    margin-left: 50%;
+    margin-top: -450px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.photo{
+    margin-top: 60px;
+    margin-left: 120px;
+}
+
+h2{
+    font-size: 38px;
+
+}
+
+p{
+    font-size: 20px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+.icons{
+    margin-top: 30px;
+    font-size: 23px;  
+}
+
+.icons a{
+    display: inline-flex;
+    width: 50px;
+    color: white;
+    text-decoration: none;
+}
+
+button{
+    border-radius: 5px;
+    width: 150px;
+    height: 45px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 10px 20px;
+    font-weight: bold;
+        
+}
+
+.btn1{
+    background-color: rgb(143, 29, 143);
+    color: white;
+    border-style: none;   
+}
+
+.btn2{
+    border-color: rgb(143, 29, 143);
+    color: rgb(143, 29, 143);
+    margin-left: 100px;
+}
+
+a { 
+    color: inherit; 
+    text-decoration: none;
+} 

@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&family=Sawarabi+Mincho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&family=Roboto:wght@300&family=Sawarabi+Mincho&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #96C3EC;
+}
+
+.titulo-principal{
+    text-align: center;
+    color: #6558F5;
+    font-size: 18px;
+    font-family: Roboto;
+}
+.menu-principal{
+    display: flex;
+    padding: 40px 0px 20px 150px;
+}
+
+.menu-nav{
+    display: table-cell;
+    float: left;
+    font-size: 20px;
+    padding-top: 18px;
+    color: #6558F5;
+    font-family: Roboto;
+    font-weight: bold;
+    text-align: center;
+}
+
+.menu-nav ul{
+    list-style: none;
+    position: relative;
+    cursor: pointer;
+    
+    
+}
+
+.menu-nav ul li {
+    float: left;
+    margin-left: 80px;    
+    width: 100px;
+    padding-bottom: 15px;
+    
+}
+
+.index{
+    border-bottom: solid 2px #6558F5;
+}
+
+
+.menu-nav ul li:hover{
+    visibility: visible;
+}
+
+.menu-nav a:hover{
+    border-bottom: solid 2px #6558F5;
+    padding: 0px 20px 15px 18px;
+}
+
+.botoes{
+    margin: 10px 0px 20px 250px;
+}
+
+.btn1:hover, .btn2:hover {
+    transform: scale(1.05);
+    filter: brightness(100%);
+    transition: 0.2s ease-in-out;
+}
+
+.btn1, .btn2{
+    border-radius: 3px;
+    width: 130px;
+    height: 35px;
+    cursor: pointer;
+    margin: 10px 20px;
+    font-size: 16px;
+    font-family: Roboto;    
+}
+
+.btn1{
+    background-color: white;
+    border-color: #2C88D9;
+    color: #2C88D9;
+    margin-left: 50px;
+    border-style:solid;
+}
+
+.btn2{
+    background-color: #2C88D9;
+    color: white;
+    border-style: none;   
+}
+
+a { 
+    color: inherit; 
+    text-decoration: none;
+} 
+
+.produtos{   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+.produto1, .produto2, .produto3{
+    margin: 30px 50px 0 50px;
+    cursor: pointer;
+}
+
+.produto1:hover, .produto2:hover, .produto3:hover {
+
+    transform: scale(1.05);
+    filter: brightness(100%);
+    transition: 0.4s ease-in-out;
+
+}
+
+.textos{
+    text-align: left;
+    width: 280px;
+    margin: 20px 0 0 0;
+    line-height: 25px;
+    color: #6558F5;
+    font-family: Roboto;
+}
+
+h3{
+    font-size: 22px;    
+}
+
+p{
+    font-size: 18px;
+}
+
+.imgs-principais{
+    width: 280px;
+    height: 250px;
+    object-fit: cover;
+    background-color: white;
+    padding: 3px 3px 3px 3px;
+}

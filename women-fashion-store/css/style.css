@@ -1,0 +1,481 @@
+/* GERAL */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@200&family=Montserrat+Alternates:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@200&family=Montserrat+Alternates:wght@300&family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* <!-- MENU --> */
+
+.menu {
+    width: 100%;
+    height: 100px;
+    background-color: #D199B6;
+    position: fixed;
+    
+}
+
+.logo-menu {
+    margin: 20px 0 0 150px;
+    color: white;
+    position: absolute;
+    font-size: 40px;
+}
+
+.logo-menu > i > p {
+    margin: 14px 0 0 16px;
+    color: white;
+    float: right;
+    font-size: 16px;
+    font-family: playfair display;
+    text-transform: uppercase;
+}
+
+.busca {
+    float: left;
+    width: 450px;
+    margin-left: 380px;
+    height: 50px;
+}
+
+.busca > input {
+    border-radius: 22px;
+    margin-top: 26px;
+    height: 35px;
+    width: 100%;
+    border-style: none;
+    color: #9F2042;
+    font-size: 14px;
+}
+
+.busca > input[type=text] {
+    padding-left: 20px;   
+}
+
+.busca > input:focus{
+    outline: none;
+}
+
+.busca > input::placeholder{
+    color: #A68BA5;
+    font-size: 14px;
+}
+
+.lupa {
+    font-size: 18px;
+    color: #A68BA5;
+    cursor: pointer;
+    position: absolute;
+    background:transparent;
+    border: none;
+    margin-left: 430px;
+    margin-top: -28px;
+    float: right;
+}
+
+.btn-acesso{
+    position:absolute;
+    right: 230px;
+    width: 250px;
+    padding: 32px 0 30px 0px;
+}
+
+.btn-login, .btn-cad {
+    height: 28px;
+    margin-left: 20px;
+    width: 100px;
+    background-color: white;
+    cursor: pointer;
+    border-style: none;
+    border-radius: 5px;
+}
+
+.btn-login > a, .btn-cad > a {
+    color: #A68BA5;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: playfair display;
+}
+
+.acesso-carrinho {
+    width: 200px;
+    height: 70px;
+    float: right;
+    text-align: center;
+    padding-top: 30px;
+    padding-right: 25px;
+}
+
+.acesso-carrinho > a {
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    font-family: playfair display;
+}
+
+.acesso-carrinho > a > i{
+    font-size: 28px;
+}
+
+ /* <!-- BANNER --> */
+
+.banner{
+    width: 900px;
+    height: 400px;
+    padding: 40px 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 130px;
+}
+
+.categorias-banner > ul > li {
+    float: left;
+    list-style: none;
+    margin: 0px 10px;
+    text-transform: uppercase;
+    font-size: 18px;
+    text-decoration: none;
+    font-family: roboto;
+}
+
+.categorias-banner > ul > li > a {
+    float: left;
+    color: #C493B0;
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.categorias-banner > ul > li > a > i{
+    font-size: 8px;
+    margin: 0 10px 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-1{
+    position:absolute;
+    padding: 40px 80px;
+    z-index: -1;
+}
+
+.img-banner{
+    width: 1100px;
+    height: 350px;
+    object-fit: cover;
+}
+
+
+/*  <!-- DESTAQUES E PRODUTOS MAIS VENDIDOS --> */
+
+.destaques, .produtos-mais-vendidos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 50px 90px 50px;
+}
+
+h1 {
+    width: 800px;
+    font-family: playfair display;
+    letter-spacing: 2px;
+    font-size: 28px;
+    text-align: center;
+    border-bottom: #A68BA5 1px solid;    
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    color: #A68BA5;
+}
+
+.produto {
+    float: left;
+    width: 250px;
+    padding: 10px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.img-produto{
+    width: 250px;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.descricao-produto{
+    font-size: 18px;
+    font-family: playfair display;
+    text-align: center;
+    margin: 10px;
+    color: #A68BA5;
+}
+
+.valor-produto{
+    font-size: 26px;
+    font-family: roboto;
+    text-align: center;
+    margin: 10px;
+    color: #A68BA5;
+}
+
+.info-secundaria{
+    font-size: 16px;
+    font-family: roboto;
+    text-align: center;
+    margin: 10px;
+    color: #A68BA5;
+}
+
+.btn-comprar{
+    width: 250px;
+    height: 35px;
+    border-radius: 3px;
+    cursor: pointer;
+    border-style: none;
+    background-color: #A68BA5;
+    font-size: 18px;
+    font-family: playfair display;
+    text-transform: uppercase;
+}
+
+.btn-comprar > a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* <!-- ACAO SIGA --> */
+
+.acao-siga{
+    width: 80%;
+    height: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.acao-siga > a > i {
+    float: left;
+    font-size: 45px;
+    margin-left: 370px;
+    position: absolute;
+    color: #D199B6;
+    z-index: -1;
+}
+
+.acao {
+    font-size: 30px;
+    text-align: center;
+    padding-top: 4px;
+    margin-left: 80px;
+    color: grey;
+    cursor: pointer;
+}
+
+.acao > a {
+    text-decoration: none;
+    font-family: playfair display;
+}
+
+.acao > a:link {
+    color: #D199B6;
+}
+
+.acao > a:visited {
+    color: #D199B6;
+}
+
+/* <!-- INFORMAÇÕES --> */
+
+.informacoes{
+    width: 1200px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;    
+    padding-top: 50px;
+}
+
+.item-1{
+    margin-left: 30px;
+}
+
+.item-2, .item-3 {
+    border-left: 1px solid #D199B6;
+    padding-left: 60px;
+}
+
+.item-1, .item-2, .item-3 {
+    width: 320px;
+    height: 70px;
+    float: left;
+    font-size: 16px;
+    font-family: playfair display;
+    text-transform: uppercase;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 16px;
+    line-height: 24px;
+    color: #D199B6;
+}  
+
+.item-1 > i, .item-2 > i, .item-3 > i {
+    font-size: 34px;
+    float: left;
+    color: #D199B6;
+    margin-right: 20px;
+}
+
+.info-item-titulo {
+    font-weight: bold;
+}
+
+/* <!-- RODAPE --> */
+
+footer {
+    background-color: #D199B6;
+}
+
+.rodape {
+    width: 1200px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.rodape-nav, .rodape-contato, .rodape-redes, .newsletter {
+    width: 250px;
+    float: left;
+    padding: 20px;
+}
+
+.rodape-titulo{
+    font-size: 20px;
+    font-family: playfair display;
+    color: #50514F;
+}
+
+.rodape-nav > a, .rodape-contato > a, .rodape-pagamento > a, 
+.rodape-envios > a, .rodape-redes > a, .newsletter > a  {
+    text-decoration: none;
+    color: #50514F;
+    font-size: 18px;
+    font-family: roboto;
+    line-height: 26px;
+}
+
+.rodape-nav a p:hover, .rodape-contato a p:hover, 
+.rodape-pagamento i:hover, .rodape-envios i:hover,
+.rodape-redes a:hover  {
+    color: white;
+    cursor: pointer;
+}
+
+.rodape-contato > p {
+    color: #50514F;
+    font-size: 18px;
+    font-family: roboto;
+    line-height: 26px;
+}
+
+.rodape-pagamento,.rodape-envios {
+    width: 250px;
+    float: left;
+    padding: 20px;
+    padding-bottom: 40px;
+}
+
+.rodape-pagamento > i,.rodape-envios > i {
+    font-size: 35px;
+    color: #50514F;
+    padding-top: 20px;
+}
+
+.rodape-envios{
+    margin-top: 110px;
+    position: absolute;
+    margin-left: 584px;
+}
+
+.rodape-redes > a > i {
+    font-size: 30px;
+    padding-top: 20px;
+    margin-left: 6px;
+}
+
+.rodape-redes {
+    position: absolute;
+    margin-top: 165px;
+    position: absolute;
+    margin-left: 292px;
+}
+
+.newsletter > p {
+    font-size: 18px;
+    font-family: roboto;
+    padding: 10px 0 10px 0;
+    color: #50514F;
+}
+
+.newsletter > input {
+    border-radius: 5px;
+    border-style: none;
+    height: 30px;
+    margin: 6px 0 6px 0;
+    width: 100%;
+    color: #50514F;
+}
+
+.newsletter > button {
+    border-style: none;
+    border-radius: 5px;
+    height: 35px;
+    width: 50%;
+    font-size: 16px;
+    font-family: roboto;
+    background-color:#50514F;
+    color: #A68BA5;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.newsletter > input:focus{
+    outline: none;
+}
+
+.newsletter > input[type=text] {
+    padding-left: 10px;   
+}
+
+.creditos {
+    width: 1200px;
+    text-align: center;
+    font-size: 16px;
+    font-family: roboto;
+    line-height: 22px;
+    display: inline-block;
+    border-top: 1px solid #ccc;
+    margin-top: 30px;
+    color: #50514F;
+    padding-top: 20px;
+}
+
+
+
+
+
+
+
+

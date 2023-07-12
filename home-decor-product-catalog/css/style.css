@@ -1,0 +1,789 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@200&family=Montserrat+Alternates:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@200&family=Montserrat+Alternates:wght@300&family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* menu */
+
+.menu {
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    background-color: #252424;
+    z-index: 2;
+}
+
+.logo-menu {
+    width: 300px;
+    height: 50px;
+    margin: 0 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+}
+
+.logo-menu > i {
+    font-size: 25px;
+    float: left;
+}
+
+.logo-menu p {
+    font-size: 16px;
+    font-family: playfair display;
+    text-transform: uppercase;
+    margin-left: 10px;
+}
+
+.menu-nav {
+    width: 600px;
+    height: 50px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-nav > ul > li {
+    float: left;
+    list-style: none;
+    font-size: 14px;
+    font-family: playfair display;
+    text-transform: uppercase;
+    color: white;
+    margin-left: 50px;
+}
+
+.menu-nav > ul > li > a {
+    text-decoration: none;
+    color: white;
+}
+
+/* main */
+
+.main-general {
+    width: auto;
+    height: 1200px;
+    display: flex;
+}
+
+.main {
+    width: 85%;
+    height: 700px;
+    margin: 100px auto;
+}
+
+.img-main {
+    margin-top: 50px;
+    width: 450px;
+    height: 700px;
+    border-top-right-radius: 250px ;
+    border-top-left-radius: 250px ;
+    background-image: url(../img/img-main.jpg);
+    background-size: cover;
+    object-fit: cover;
+    float: left;
+}
+
+.content-main {
+    width: 600px;
+    height: 800px;
+    float: right;
+}
+
+.text-main {
+    width: 400px;
+    height: 500px;
+    text-align: center;
+    margin: 60px auto 0 auto;
+}
+
+.text-main > h2 {
+    font-size: 16px;
+    font-family: playfair display;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+
+.text-main > h1 {
+    font-size: 60px;
+    font-family: playfair display;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.text-main > p {
+    font-size: 16px;
+    font-family: roboto;
+    margin: 30px 0;
+}
+
+.text-main > button {
+    width: 200px;
+    height: 40px;
+    background-color: rgb(66, 66, 66);
+    color: white;
+    font-size: 18px;
+    font-family: playfair display;
+    border-style: none;
+    cursor: pointer;
+}
+
+.img-sample-main {
+    width: 400px;
+    height: 400px;
+    border-radius: 400px;
+    background-image: url(../img/img-sample-main.jpg);
+    background-size: cover;
+    object-fit: cover;
+    background-position: bottom;
+    margin: 0 auto;
+}
+
+/* presentation */
+
+.presentation-general {
+    width: auto;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.presentation {
+    width: 90%;
+    height: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-presentation {
+    width: 600px;
+    height: 500px;
+    float: right;
+    background-image: url(../img/img-presentation.jpg);
+    background-size: cover;
+    object-fit: cover;
+}
+
+.text-prsentation {
+    width: 350px;
+    height: 300px;
+    text-align: left;
+    margin-right: 100px;
+    float: left;
+}
+
+.text-prsentation > h1 {
+    font-size: 40px;
+    font-family: playfair display;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.text-prsentation > p {
+    font-size: 16px;
+    font-family: roboto;
+    margin: 30px 0;
+}
+
+.text-prsentation > button {
+    width: 200px;
+    height: 40px;
+    background-color: rgb(66, 66, 66);
+    color: white;
+    font-size: 18px;
+    font-family: playfair display;
+    border-style: none;
+    cursor: pointer;
+}
+
+/* our products */
+
+.our-products-general {
+    width: auto;
+    height: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.our-products {
+    width: 80%;
+    height: 700px;
+    margin: 0 auto;
+}
+
+.text-our-products {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+.text-our-products h1 {
+    font-size: 40px;
+    font-family: playfair display;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.text-our-products p {
+    font-size: 16px;
+    font-family: playfair display;
+    line-height: 25px;
+    margin: 20px 0;
+}
+
+.products-general {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product {
+    width: 300px;
+    height: 400px;
+    margin: 50px 30px;
+}
+
+.img-product-1, .img-product-2, .img-product-3 {
+    width: 300px;
+    height: 300px;
+    border-radius: 300px;
+}
+
+.img-product-1 {
+    background-image: url(../img/img-product-1.jpg);
+    background-size: cover;
+    object-fit: cover;
+}
+
+.img-product-2 {
+    background-image: url(../img/img-product-2.jpg);
+    background-size: cover;
+    object-fit: cover;
+    background-position: bottom;
+}
+
+.img-product-3 {
+    background-image: url(../img/img-product-3.jpg);
+    background-size: cover;
+    object-fit: cover;
+}
+
+.product p {
+    font-size: 20px;
+    font-family: playfair display;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 50px 0;
+}
+
+.our-products-general > button {
+    width: 200px;
+    height: 40px;
+    background-color: rgb(66, 66, 66);
+    color: white;
+    font-size: 18px;
+    font-family: playfair display;
+    border-style: none;
+    cursor: pointer;
+    position: absolute;
+    margin: 0 auto;
+}
+
+/* about */
+
+.about-general {
+    width: auto;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about {
+    width: 85%;
+    height: 900px;
+    margin: 0 auto 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-about {
+    width: 500px;
+    height: 800px;
+    float: left;
+    border-radius: 400px;
+    margin-right: 150px;
+    background-image: url(../img/img-about-us.jpg);
+    background-size: cover;
+    object-fit: cover;
+}
+
+.text-about {
+    width: 400px;
+    height: 300px;
+    text-align: left;
+    float: right;
+}
+
+.text-about > h1 {
+    font-size: 40px;
+    font-family: playfair display;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.text-about > p {
+    font-size: 16px;
+    font-family: roboto;
+    margin: 30px 0;
+}
+
+.text-about > button {
+    width: 200px;
+    height: 40px;
+    background-color: rgb(66, 66, 66);
+    color: white;
+    font-size: 18px;
+    font-family: playfair display;
+    border-style: none;
+    cursor: pointer;
+}
+
+/* our work */
+
+.our-work-general {
+    width: auto;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.our-work {
+    width: 85%;
+    height: 650px;
+    margin: 0 auto;
+}
+
+.text-our-work {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+.text-our-work h1 {
+    font-size: 40px;
+    font-family: playfair display;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.text-our-work p {
+    font-size: 16px;
+    font-family: playfair display;
+    line-height: 25px;
+    margin: 20px 0;
+}
+
+.img-our-work {
+    width: auto;
+    height: 400px;
+    background-image: url(../img/img-our-work.jpg);
+    background-size: cover;
+    object-fit: cover;
+    background-position: bottom;
+}
+
+.our-work-general  > button {
+    width: 200px;
+    height: 40px;
+    background-color: rgb(66, 66, 66);
+    color: white;
+    font-size: 18px;
+    font-family: playfair display;
+    border-style: none;
+    cursor: pointer;
+    position: absolute;
+    margin: 0 auto;
+}
+
+/* new recyclabe materials */
+
+.new-recyclabe-materials-general {
+    width: auto;
+    height: 850px;
+    margin-top: 200px;
+}
+
+.new-recyclabe-materials {
+    width: 85%;
+    height: 800px;
+    margin: 0 auto;
+}
+
+.text-new-recyclabe-materials {
+    width: 350px;
+    height: 300px;
+    text-align: left;
+    margin-right: 100px;
+    float: left;
+}
+
+.text-new-recyclabe-materials > h1 {
+    font-size: 40px;
+    font-family: playfair display;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.text-new-recyclabe-materials > p {
+    font-size: 16px;
+    font-family: roboto;
+    margin: 30px 0;
+}
+
+.text-new-recyclabe-materials > button {
+    width: 200px;
+    height: 40px;
+    background-color: rgb(66, 66, 66);
+    color: white;
+    font-size: 18px;
+    font-family: playfair display;
+    border-style: none;
+    cursor: pointer;
+}
+
+.img-new-recyclabe-materials-1 {
+    width: 450px;
+    height: 450px;
+    border-radius: 400px;
+    margin: 300px 0 0 200px;
+    position: absolute;
+    background-image: url(../img/img-new-recyclabe-materials-1.jpg);
+    background-size: cover;
+    object-fit: cover;
+    background-position: right;
+    z-index: -1;
+}
+
+svg {
+    position: absolute;
+    display: flex;
+    margin-left: 650px;
+}
+
+.img-new-recyclabe-materials-2 {
+    width: 450px;
+    height: 750px;
+    float: right;
+    background-image: url(../img/img-new-recyclabe-materials-2.jpg);
+    background-size: cover;
+    object-fit: cover;
+}
+
+/* contact */
+
+.contact-general {
+    width: auto;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.contact {
+    width: 85%;
+    height: 700px;
+    margin: 0 auto;
+}
+
+.text-contact {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+.text-contact h1 {
+    font-size: 40px;
+    font-family: playfair display;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.text-contact p {
+    font-size: 16px;
+    font-family: playfair display;
+    line-height: 25px;
+    margin: 20px 0;
+}
+
+.map {
+    width: auto;
+    height: 500px;
+    background-color: grey;
+}
+
+.contact-general  > button {
+    width: 200px;
+    height: 40px;
+    background-color: rgb(66, 66, 66);
+    color: white;
+    font-size: 18px;
+    font-family: playfair display;
+    border-style: none;
+    cursor: pointer;
+    position: absolute;
+    margin: 0 auto;
+}
+
+/* newsletter */
+
+.newsletter-general {
+    width: auto;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.newsletter {
+    width: 90%;
+    height: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-newsletter {
+    width: 450px;
+    height: 300px;
+    text-align: left;
+    margin-right: 100px;
+    float: left;
+}
+
+.text-newsletter > h1 {
+    font-size: 40px;
+    font-family: playfair display;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.text-newsletter > p {
+    font-size: 16px;
+    font-family: roboto;
+    margin: 30px 0;
+}
+
+.text-newsletter > button {
+    width: 200px;
+    height: 40px;
+    background-color: rgb(66, 66, 66);
+    color: white;
+    font-size: 18px;
+    font-family: playfair display;
+    border-style: none;
+    cursor: pointer;
+}
+
+.form-newsletter-general {
+    width: 550px;
+    height: 550px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(66, 66, 66);
+}
+
+.form-newsletter {
+    width: 500px;
+    height: 480px;
+}
+
+.campo-name, .campo-surname {
+    float: left;
+}
+
+.campo-name > label,.campo-surname > label,
+.campo-email > label, .campo-password > label, .campo-message > label {
+    display: block;
+    font-size: 20px;
+    color: white;
+    font-family: playfair-display;
+    padding-left: 10px;
+    margin: 10px 0;
+}
+
+.campo-name > input, .campo-surname > input {
+    width: 210px;
+    height: 28px;
+    margin: 0 10px;
+    border: 2px solid white;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.campo-email > input, .campo-password > input{
+    width: 450px;
+    height: 28px;
+    margin: 0 10px;
+    border: 2px solid white;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.campo-name > input:focus, .campo-surname > input:focus, 
+.campo-email > input:focus, .campo-password > input:focus,
+.campo-message > textarea:focus {
+    outline: none;
+}
+
+.campo-name > input[type="text"], .campo-surname > input[type="text"], 
+.campo-email > input[type="email"], .campo-password > input[type="password"],
+.campo-message > textarea[name="message"] {
+    padding-left: 10px;
+    font-family: playfair-display;
+    color: white;
+    font-size: 20px;
+}
+
+.campo-message > textarea {
+    width: 460px;
+    height: 160px;
+    margin: 0 10px;
+    border: 2px solid white;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.form-newsletter > p {
+    font-size: 12px;
+    font-family: roboto;
+    color: white;
+    margin: 10px auto;
+    width: 460px;
+}
+
+/* footer */
+
+.footer-general {
+    width: auto;
+    height: 500px;
+    background-color: #252424;
+}
+
+.footer {
+    width: 90%;
+    height: 400px;
+    margin: 0 auto;
+    border-bottom: 1px solid white;
+}
+
+.logo-footer {
+    width: 200px;
+    height: 60px;
+    color: white;
+    position: absolute;
+}
+
+.logo-footer > i {
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-top: 50px;
+    margin-left: 65px;
+}
+
+.logo-footer > p {
+    font-size: 16px;
+    font-family: playfair display;
+    text-transform: uppercase;
+    margin-left: 10px;
+    
+}
+
+.footer-nav {
+    width: 250px;
+    height: 100px;
+    margin-top: 150px;
+    float: left;
+}
+
+.footer-nav > ul > li {
+    list-style: none;
+    font-size: 16px;
+    font-family: playfair display;
+    text-transform: uppercase;
+    color: white;
+    margin: 16px 0;
+    
+}
+
+.footer-nav > ul > li > a {
+    text-decoration: none;
+    color: white;  
+}
+
+.footer-config-page {
+    width: 250px;
+    height: 100px;
+    margin-top: 150px;
+    float: left;
+}
+
+.footer-config-page > ul > li {
+    list-style: none;
+    font-size: 16px;
+    font-family: playfair display;
+    text-transform: uppercase;
+    color: white;
+    margin: 16px 0;
+    
+}
+
+.footer-config-page > ul > li > a {
+    text-decoration: none;
+    color: white;  
+}
+
+.footer-copyright {
+    width: 90%;
+    height: 80px;
+    margin: 0 auto;
+}
+
+.copyright {
+    height: 70px; 
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.copyright > h2 {
+    color: white;
+    font-size: 14px;
+    font-family: playfair display;
+    text-transform: uppercase;
+    font-weight: lighter;
+    letter-spacing: 3px;
+}
+
+.social-media {
+    float: right;
+    margin-top: -50px;
+}
+
+.social-media > i {
+    color: white;
+    font-size: 18px;
+    margin: 0 5px;
+}

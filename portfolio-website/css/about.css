@@ -1,0 +1,487 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* NAV */
+
+nav {
+    width: 100%;
+    height: 80px;
+    background-color: white;
+}
+
+/* LOGO */
+
+.logo {
+    width: 300px;
+    float: left;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.logo > i {
+    font-size: 50px;
+    color: grey ;
+    float: left;
+    margin-right: 20px;
+    
+}
+
+.logo > p {
+    font-size: 30px;
+    color: grey;
+    margin-top: 10px;
+}
+
+/* MENU */
+
+.menu {
+    width: 500px;
+    height: 80px;
+    float: left;
+    margin-left: 40px;
+}
+
+.menu > ul > li {
+    float: left;
+    margin: 20px 20px 0px 30px;
+    font-size: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: grey;
+    list-style: none;
+}
+
+.menu > ul > li > a {
+    text-decoration: none;
+}
+
+.menu > ul > li > a:link {
+    color: grey;
+}
+
+.menu > ul > li > a:visited {
+    color: grey;
+}
+
+.menu > ul > li > a:hover {
+    color: salmon;
+}
+
+.search {
+    width: 200px;
+    height: 80px;
+    float: left;
+    margin-left: 50px;
+}
+
+.search > input {
+    border-style: none;
+    width: 150px;
+    height: 30px;
+    border-radius: 30px;
+
+}
+
+.search > input::placeholder{
+    float: right;
+    padding-right: 20px;
+    padding-top: 5px;
+    color: grey;
+}
+
+.search > input[type="text"]{
+    color: grey;
+    font-size: 18px;
+}
+
+.search > input, .search > i{
+    margin-top: 24px;
+}
+
+.search > input:focus {
+    outline: none;
+}
+
+.search > i {
+    background-color: grey;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: -10px;
+    padding-top: 8px;
+    padding-left: 8px;
+}
+
+/* MAIN */
+
+.main {
+    width: 100%;
+    height: 300px;
+    display: inline-block;
+}
+
+.main > img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    z-index: -1;
+    position: absolute;
+    opacity: 0.9;
+}
+
+.main > h1 {
+    width: 700px;
+    font-size: 60px;
+    margin: 120px auto 0 auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}
+
+/* QUEM SOMOS */
+
+.contents-who-are-we {
+    width: 1100px;
+    height: 750px;
+    margin: 0 auto 0 auto;
+    border-bottom: 1px grey solid;
+}
+
+.contents-main {
+    width: 100%;
+    height: 280px;
+    text-align: center;
+}
+.contents-main > h1 {
+    font-size: 35px;
+    color: cornflowerblue;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+}
+
+.contents-main > p {
+    line-height: 22px;
+    margin-top: 20px;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: grey;
+}
+
+.projects-offered { 
+    width: 100%;
+    height: 450px;
+}
+
+.projects-offered > h1 {
+    font-size: 60px;
+    color: rgb(65, 65, 65);
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.project-description-1, .project-description-2,
+.project-description-3, .project-description-4 {
+    width: 245px;
+    float: left;
+    padding: 0 12px;
+    margin: 40px 0;
+    border-right: 1px grey solid;
+
+}
+
+.project-description-1 {
+    border-left: 1px grey solid;
+}
+
+.project-description-1 > i, .project-description-2 > i ,
+.project-description-3 > i, .project-description-4 > i {
+    font-size: 90px;
+    color: grey;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.project-description-1 > h2, .project-description-2 > h2,
+.project-description-3 > h2, .project-description-4 > h2 {
+    text-align: center;
+    color: cornflowerblue;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px 0;
+}
+
+.project-description-1 > p, .project-description-2 > p ,
+.project-description-3 > p, .project-description-4 > p {
+    color: grey;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.our-team {
+    width: 1000px;
+    height: 690px;
+    margin: 50px auto 30px auto;
+}
+
+.our-team > h1 {
+    font-size: 35px;
+    color: cornflowerblue;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.professional-1, .professional-2, .professional-3, .professional-4 {
+    width: 350px;
+    height: 250px;
+    float: left;
+    border: rgb(201, 201, 201) 1px solid;
+    border-radius: 2px;
+    margin: 40px 0 0 95px;
+}
+
+.background-professional-1, .background-professional-2,
+.background-professional-3, .background-professional-4 {
+    width: 345px;
+    height: 245px;
+    float: left;
+    border-top: 8px solid rgb(201, 201, 201);
+    border-radius: 2px;
+    position: absolute;
+    
+}
+
+.background-professional-1 {
+    margin: 32px 0 0 88px;
+    border-left: 7px solid rgb(201, 201, 201);
+}
+
+.background-professional-2 {
+    margin: 324px 0 0 88px;
+    border-left: 7px solid rgb(201, 201, 201);
+}
+
+.background-professional-3 {
+    margin: 32px 0 0 549px;
+    border-right: 7px solid rgb(201, 201, 201);
+}
+
+.background-professional-4 {
+    margin: 324px 0 0 549px;
+    border-right: 7px solid rgb(201, 201, 201);
+}
+
+.img-professional {
+    width: 95px;
+    height: 100px;
+    background-color: rgb(201, 201, 201);
+    float: left;
+    margin: 10px 30px 10px 10px;
+}
+
+.img-professional > i {
+    font-size: 85px;
+    color: white;
+    margin: 10px;
+}
+
+.title-professional {
+    width: 200px;
+    height: 80px;
+    float: left;
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 20px;
+}
+
+.title-professional > h3 {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: cornflowerblue;
+}
+
+.title-professional > p {
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: grey;
+    letter-spacing: 1px;
+}
+
+.description-professional > p {
+    width: 325px;
+    height: 130px;
+    margin: 0 10px;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    color: grey;
+}
+
+
+
+
+
+/* RODAPE */
+
+footer{
+    width: 100%;
+    height: 350px;
+    position: relative;
+    display: block;
+    background-color: #2E3E4E;
+}
+
+.rodape-general {
+    width: 1200px;
+    margin: 0 auto 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rodape-nav, .newsletter, .recent-projects, .contact{
+    width: 280px;
+    height: 350px;
+    float: left;
+    margin: 0 22px;
+}
+
+.rodape-nav > h3 , .newsletter > h3, .recent-projects> h3, .contact > h3 {
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: coral;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.rodape-nav-description-1, .rodape-nav-description-2, .rodape-nav-description-3 {
+    width: 100%;
+    margin-top: 10px;
+    padding-bottom: 20px;
+}
+
+.rodape-nav-description-1, .rodape-nav-description-2 {
+    border-bottom: white 1px solid;
+}
+
+.rodape-nav-description-1 > h3, .rodape-nav-description-2 > h3, .rodape-nav-description-3 > h3,
+.rodape-nav-description-1 > p, .rodape-nav-description-2 > p, .rodape-nav-description-3 > p{
+    color: white;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.rodape-nav-description-1 > a, .rodape-nav-description-2 > a, .rodape-nav-description-3 > a {
+    color: cornflowerblue;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+
+.text-newsletter > p {
+    color: white;
+    margin-top: 20px;
+    padding-bottom: 15px;
+    border-bottom: white 1px solid;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.subscribe-newsletter > h4 {
+    color: cornflowerblue;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 15px 0;
+}
+
+.subscribe-newsletter > input {
+    width: 99%;
+    height: 28px;
+}
+
+.subscribe-newsletter > input:focus {
+    outline: none;
+}
+
+.subscribe-newsletter > button {
+    float: right;
+    width: 100px;
+    height: 35px;
+    cursor: pointer;
+    background-color: cornflowerblue;
+    color: white;
+    border-style: none;
+    border-radius: 2px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.projects-1, .projects-2, .projects-3 {
+    width: 100%;
+    margin-top: 10px;
+    padding-bottom: 20px;
+    line-height: 22px;
+}
+
+.projects-1, .projects-2 {
+    border-bottom: white 1px solid;
+}
+
+.projects-1 > h3, .projects-2 > h3, .projects-3 > h3,
+.projects-1 > p, .projects-2 > p, .projects-3 > p {
+    color: white;
+    font-size: 13px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.projects-1 > a, .projects-2 > a, .projects-3 > a {
+    color: cornflowerblue;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+
+.img-demo-projects {
+    width: 70px;
+    height: 65px;
+    background-color: white;
+    float: left;
+    margin-right: 12px;
+}
+
+.info-contact {
+    margin: 20px 0 20px 0;
+}
+
+.info-contact > i {
+    font-size: 32px;
+    color: cornflowerblue;
+    float: left;
+    margin-right: 20px;
+    width: 40px;
+    text-align: center;
+}
+
+.info-contact > p {
+    color: white;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

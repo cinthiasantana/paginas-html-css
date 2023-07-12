@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(../img/background-img.png);
+    background-position: center;
+    background-size: 370vh;
+}
+
+.menu {
+    width: auto;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-nav {
+    width: 90%;
+    height: 80px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-nav > ul > li {
+    list-style: none;
+    float: left;
+    margin: 0 30px;
+    padding: 6px 20px;
+    font-family: sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.menu-nav > ul > li > a {
+    text-decoration: none;
+    color: white;  
+}
+
+.menu-nav > ul > li > a:link {
+    text-decoration: none;
+    color: white;  
+}
+
+.menu-nav > ul > li > a:visited {
+    text-decoration: none;
+    color: white;  
+}
+
+.menu-nav > ul > li > a:hover {
+    text-decoration: none;
+    color: blueviolet;  
+}
+
+.menu-nav-contact {
+    border-bottom: 2px solid white;
+}
+
+.menu-nav-contact:hover {
+    border-bottom: 2px solid blueviolet;
+}
+
+
+.menu-nav > button {
+    width: 130px;
+    height: 30px;
+    font-size: 16px;
+    border-style: none;
+    border-radius: 18px;
+    border: 2px solid white;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.sign-up {
+    background-color: white;
+    color: blueviolet;
+}
+
+.login {
+    color: white;
+    background-color: transparent;
+}
+
+.main {
+    width: 700px;
+    height: 260px;
+    margin: 50px 0 0 110px;
+    padding: 20px 0 0 20px;
+    border-left: 2px solid white;
+}
+
+.text-main > h1 {
+    text-transform: uppercase;
+    font-size: 50px;
+    font-family: sans-serif;
+    color: white;
+}
+
+.text-main > h2 {
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: white;
+    font-weight: lighter;
+    margin: 10px 0;
+}
+
+.text-main > p {
+    font-size: 14px;
+    font-family: sans-serif;
+    color: white;
+    line-height: 30px;
+}
+
+.main > button {
+    width: 150px;
+    height: 40px;
+    border-style: none;
+    border-radius: 10px;
+    border: 2px solid white;
+    background-color: transparent;
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+    margin: 80px 0;
+    cursor: pointer;
+}

@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("../img/background.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.menu-top{
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    padding-top: 10px;
+}
+
+.logo {
+    margin-top: 20px;
+}
+
+.logo > i {
+    font-size: 30px;
+    color: white;
+    float: left;
+    margin-left: 50px;
+}
+
+.logo > i > p {
+    font-size: 30px;
+    color: white;
+    float: right;
+    margin-left: 16px;
+    
+}
+
+.menu-nav {
+    width: 800px;
+    float: right;
+    margin-right: 10px;
+}
+
+.menu-nav > ul > li {
+    list-style: none;
+    float: left;
+    padding: 0 30px 0px 30px;
+    padding-top: 6px;
+}
+
+.menu-nav > ul > li > a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+.acesso-login {
+    width: 400px;
+    float: left;
+    margin-left: 10px;
+}
+
+.acesso-1, .acesso-2 {
+    margin: 0 0 0 10px;
+    width: 120px;
+    height: 34px;
+    border-radius: 16px;
+    font-size: 16px;
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.principal {
+    width: 700px;
+    position: absolute;
+    margin-top: 180px;
+    margin-left: 50px;
+}
+
+.titulo-principal {
+    color: white;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.principal > h2 {
+    color: white;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+.principal > p {
+    color: white;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+
+.simbolo {
+    width: 150px;
+    font-size: 10px;
+    margin: 0 20px 30px 0;
+    
+}
+
+.simbolo > i {
+    color: white;
+    margin-left: 5px;
+    
+}
+
+.acesso-principal > button {
+    margin: 0 20px 0 0;
+    width: 120px;
+    height: 34px;
+    font-size: 16px;
+    border: 2px white solid;
+    background-color: transparent;
+    border-radius: 16px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+
+.menu-bottom {
+    position: absolute;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-top: 590px;
+    
+}
+
+.menu-bottom > ul > li {
+    float: left;
+    list-style: none;
+    
+}
+
+.menu-bottom > ul > li > a {
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    padding: 0 30px;
+}
+
+.creditos {
+    width: 300px;
+    float: right;
+    margin-top: 590px;
+}
+
+.creditos > h3 {
+    color: white;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
